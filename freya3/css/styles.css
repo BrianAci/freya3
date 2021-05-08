@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Redressed&display=swap');
+p{
+    font-family: fantasy;
+}
+.seccion{
+    color: rgb(221, 166, 122);
+    font-size: 35px;
+    font-family: 'Kaushan Script', cursive;
+    font-style: italic;
+    margin-top: 25px;
+    padding-left: 30px;
+}   
+h2{
+    font-family: 'Cormorant Unicase',serif;     
+    color: rgb(189, 148, 94);     
+    font-variant: small-caps;     
+    text-align: center;
+}
+form{       
+    display: flex;             
+    flex-direction: column;             
+    justify-content: left;            
+    align-items: baseline;
+}
+ol   
+{                      
+    list-style: none;                      
+    display: grid;                      
+    grid-template-columns: repeat(7, 1fr);                    
+    padding: 0;            
+}            
+.first-day {   grid-column-start: 5 }
+ol.li 
+ {              
+  text-align: right;  
+  list-style-type: decimal;        
+ }            
+  .first-day 
+ {              
+  grid-column-start: 5;          
+ }            
+  .day-name 
+ {              
+  background-color: #f1d5d5;              
+  font-weight: bold;              
+  text-align: center;          
+ }            
+ body{
+     background-color: rgb(238, 209, 215);
+ }
+ th{
+    color: rgb(194, 76, 68);
+    font-style: italic;
+ }
+ header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+    height: 25vh; 
+    background: linear-gradient( rgb(251,221,213),rgb(238, 209, 221));
+}
+
+header img {
+      border-radius: 10%;
+      margin-left: 30px; }
+     header nav {
+      display: flex;
+      flex-direction: row; }
+
+      header nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2px;
+        align-items: center;
+        margin-right: 30px; }
+
+        header nav ul li {
+          list-style: none;
+          padding: 5px;
+          margin: 0 5px;
+          list-style:none;
+          font-family: 'Kaushan Script', cursive;
+          font-weight: bolder; 
+          font-size: 20px;
+         }
+li:hover{
+        background-color:rgb(253, 206, 188);
+        
+ }        
+a{
+    color:rgb(221, 172, 65);
+    text-decoration: none;
+  }        
+#grad{
+      background-image:linear-gradient(rgb(219, 233, 231),rgb(255, 204, 225));
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+     border-bottom-right-radius: 15px;
+     border-bottom-left-radius: 15px;
+  }
+#grad tr{
+        color: rgb(30, 65, 161);
+        font-variant: small-caps;
+        font-style: italic;
+    }
+.dol{
+margin: 40px;
+  height: 280px;
+  transform: skewY(10deg);
+}
+.foto1{
+    height: 600px;
+    width: 240px;
+}
